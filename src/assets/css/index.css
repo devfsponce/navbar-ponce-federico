@@ -1,0 +1,58 @@
+
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+body{
+    background: white;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+
+.container{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid orange ;    
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+}
+.logo {
+    cursor: pointer;
+    height: 6rem;
+}
+
+.navbar{    
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar a{
+    margin: 0.1rem;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.navbar a:hover{
+    color: orange;
+    border-bottom: .1rem solid orange;
+    padding-bottom: .5rem;
+}
+
+.icon{
+    color: white;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
+h1{    
+    background-color: #dfe6e9;
+}
+
